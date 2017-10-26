@@ -1,0 +1,203 @@
+body,p,div,img,ul,li,a{margin: 0;padding: 0;}
+img{border: none;}
+span,p,a{font-size: 12px;color: #666666;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;color: red;}
+li{list-style: none;}
+.spirit{background: url(../images/spirit.png) no-repeat;float: left;}
+.triangle{width:0;height:0;border-top: 4px solid  #666666 ;border-left:4px solid transparent ;border-right:4px solid transparent ;}
+.act_triangle{width:0;height:0;border-right: 4px solid  #666666 ;border-top:4px solid transparent ;border-bottom:4px solid transparent ;}
+.subnav{display: none;}
+.subnav{position: absolute;border: 1px solid #000000;width: 100%;background: #e7e7e7;z-index: 1;top:0;left: 0;}
+.subnav a{display: block;color: #000000;border-bottom: 1px solid #000000;}
+
+body{background: url(../images/bodybg.png) repeat-x;}
+.wedding{margin: 0 auto;width: 992px;position: relative;}
+.wedding .top{line-height: 24px;height: 26px;}
+.wedding .top .hello{color: #000000;}
+.wedding .top .login{margin-left: 7px;margin-right: 9px;}
+.wedding .top ul{float: right;}
+.wedding .top ul li{float: left;position: relative;}
+.wedding .top ul li span{padding-right: 11px;border-right: 1px solid #bfbfbf;padding-left: 9px;display: block;float: left;}
+.wedding .top ul li a{padding-right: 11px;border-right: 1px solid #bfbfbf;padding-left: 9px;}
+.wedding .top ul li span p{float: left;margin-top: 1px;}
+.wedding .top ul li span .triangle .subnav{margin-top: 9px;top:18px;left: 0;text-align: center;}
+.wedding .top ul .center span{border: 1.5px solid #d8d8d8;height:19px;width: 105px;display: block;margin-left: -1px;margin-top: 2px;line-height: 19px;background: #ffffff;}
+.wedding .top ul .center span .triangle{margin-top: 9px;}
+.wedding .top ul .center span .act_triangle{margin-top: 7px;}
+.wedding .top ul .center span .buybike{width: 14px;height: 12px;margin-top: 4px;margin-right: 5px;}
+.wedding .top ul .center span .num{color: #ff5503;font-weight: bold;margin-left: 3px;margin-right: 3px;}
+.wedding .top ul li .top_search{padding-left: 0;}
+.wedding .top ul li .top_search .scope{background-position: -14px 0;width: 12px;height: 13px;margin-left: 10px;margin-top: 7px;margin-right: 4px;}
+.wedding .top ul li .last{border: none;}
+.wedding .top ul li span .triangle{margin-left:5px;display:block;float: left;margin-top: 12px;}
+.wedding .top ul li span .act_triangle{margin-left:5px;display:block;margin-top: 10px;}
+
+.wedding .banner{overflow: hidden;width: 991px;height: 76px;}
+.wedding .banner img{float: left;}
+.wedding .banner .search{float: left;position: relative;}
+.wedding .banner .search input{width: 453px;height: 22px;border: 2px solid #f47a0b;background: url(../images/search_icon.png) no-repeat;padding-left: 22px;float: left}
+.wedding .banner .search button{background: url(../images/search_button.png) no-repeat;width:103px;height: 28px;border: none;float: left; }
+.wedding .banner .search .tab1{overflow: hidden;margin-top: 11px;}
+.wedding .banner .search .tab1 p{float: left;width: 55px;height: 20px;line-height: 20px;text-align: center;color: #000000;}
+.wedding .banner .search .tab1 .active{background: url(../images/tab1_bg.png) no-repeat;color: #ffffff;font-weight: bold;}
+.wedding .banner .search .placeholder{position: absolute;top:35px;left: 25px;color: #808080;display: none;}
+
+.wedding .market{position: absolute;top:65px;left: 216px;}
+.wedding .market p{float: left;position: relative;}
+.wedding .market .frame{float: left;width: 11px;height: 11px;border: 1px solid #dcdcdc;margin-left: 6px;margin-top: 4px;}
+.wedding .market .frame .triangle{margin-top: 4px;margin-left: 1px;}
+.wedding .market .frame .triangle .subnav{z-index: 3;top:3px;}
+.wedding .market .frame .triangle .subnav{}
+.wedding .market .frame .triangle .subnav dt{border-bottom: 1px solid #000000;font-size: 13px;font-weight: bold;}
+.wedding .market .frame .triangle .subnav dd{font-size: 12px;}
+.wedding .market .frame .triangle .subnav dd a{border: none;}
+.wedding .market .frame .act_triangle{margin-top: 1px;margin-left: 1px;}
+
+.wedding .menu{height: 97px;}
+.wedding .menu ul{margin-top: 0.5px;position:relative;}
+.wedding .menu ul li{float: left;width: 70px;height: 29px;line-height: 29px;text-align: center;}
+.wedding .menu ul .active{background: url(../images/menu_bg.png) no-repeat;font-weight:bold;}
+.wedding .menu ul li a{color: #404040;}
+.wedding .menu ul li .submenu{position: absolute;clear: both;left: 8px;top:36px;display:none;}
+.wedding .menu ul .active .submenu{display: block;}
+.wedding .menu ul li .submenu .up{height: 26px;border-bottom: 1px dashed #d7d7d7;width: 992px;}
+.wedding .menu ul li .submenu .up .up_left{float: left;}
+.wedding .menu ul li .submenu .up .up_left .first{width:56px;background: #ed4a69;color: #ffffff;padding: 0;}
+.wedding .menu ul li .submenu .up .up_left a{font-weight: bold;display: block;float: left;height:18px;line-height: 18px;border-right:1px dashed #afafaf;padding:0 13px 0 13px;}
+.wedding .menu ul li .submenu .up .up_left a:hover{color: red;}
+.wedding .menu ul li .submenu .up .up_right{float: right;}
+.wedding .menu ul li .submenu .up .up_right a{font-weight: normal;color: #808080;;display: block;float: left;height:18px;line-height: 18px;margin-left: 15px;}
+.wedding .menu ul li .submenu .up .up_right a:hover{color: red;}
+.wedding .menu ul li .submenu .up .up_right a .twohands{background-position: -26px 0;width: 18px;height: 17px;}
+.wedding .menu ul li .submenu .down{margin-top: 4px;line-height: 22px;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block{width: 254px;height: 22px;border: 1px solid #cccccc;float: left;position: relative;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block .fale_market{width: 80px;border-right: 1px solid #e1e1e1;background: #f9f9f9;float: left;position: relative;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block .fale_market span{font-weight: normal;color: #000000;float: left;margin-left: 10px;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block .fale_market .triangle{display: block;margin-left: 6px;float: left;margin-top: 10px;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block .fale_market .triangle .subnav{top:24px;left: -10px;background: #f9f9f9;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block .fale_market .act_triangle{margin-left: 6px;margin-top: 8px;}
+.wedding .menu ul li .submenu .down .search_fale_colth_block input{float: left;border: none;width: 171px;height: 20px;position: absolute;right: 0;}
+.wedding .menu ul li .submenu .down .search_button{color:#df4867;font-weight:bold;background: url(../images/search_fale_cloth_bg.png) no-repeat;float: left;width: 57px;height: 24px;border: none;margin-left: 5px;display: block;}
+.wedding .menu ul li .submenu .down p{float: left;line-height: 25px;font-weight: normal;margin-left: 10px;}
+.wedding .menu ul li .submenu .down p span{color: #7f7f7f;}
+.wedding .menu ul li .submenu .down p a{color: #7f7f7f;padding-right: 5px;}
+.wedding .menu ul li .submenu .down p a:hover{color: red;}
+
+.wedding .content{overflow: hidden;}
+.wedding .content .content_top{}
+.wedding .content .content_top .channel{width: 190px;float: left}
+.wedding .content .content_top .channel ul{height:130px;width: 190px;padding-top: 20px;background: url(../images/channel_border.png) repeat-y;}
+.wedding .content .content_top .channel ul li{line-height:27px;margin-left:9px;width: 167px;border-bottom: 1px solid #f1f1f1;overflow: hidden;}
+.wedding .content .content_top .channel ul li .point{width:3px;height:3px;background: #404040;float: left;margin-top: 10px;margin-right: 5px;}
+.wedding .content .content_top .channel ul li .first{margin-left: 3px;}
+.wedding .content .content_top .channel ul li .second{margin-left: 38px;}
+.wedding .content .content_top .channel ul li a{float: left}
+.wedding .content .content_top .channel .qipao{height: 84px;}
+.wedding .content .content_top .channel .lifu li .second{margin-left: 26px;}
+
+.wedding .content .content_top .pic_play{margin-left:9px;margin-top:20px;float: left;width: 539px;height: 290px;position:relative;}
+.wedding .content .content_top .pic_play ul{position:absolute;top:262px;left: 400px;z-index: 2;}
+.wedding .content .content_top .pic_play ul li{margin-left:3px;font-size:10px;font-weight:bold;background-position: -40px 0;width: 24px;height: 24px;line-height: 23px;text-align: center;}
+.wedding .content .content_top .pic_play ul .active{background-position: -64px 0;color: #ffffff;}
+.wedding .content .content_top .pic_play .imgs img{position: absolute;top:0;left: 0;display: none;}
+.wedding .content .content_top .pic_play .imgs .active{display: block;z-index: 1;}
+
+.wedding .content .content_top .one_goods{float:left;width: 239px;margin-top: 19px;margin-left: 14px;}
+.wedding .content .content_top .one_goods .fashion{font-size: 17px;text-align: center}
+.wedding .content .content_top .one_goods .website{margin-top:5px;color: #808080;text-align: center;background: url(../images/website_bg.png) no-repeat;line-height: 20px;}
+.wedding .content .content_top .one_goods .treasure{background: url(../images/treasure_bg.png) no-repeat;height: 246px;}
+.wedding .content .content_top .one_goods .treasure .half{float: left;margin-left: 10px;font-size: 18px;margin-top: 15px;color: #000000;}
+.wedding .content .content_top .one_goods .treasure .time{float: left;margin-top: 13px;margin-left: 7px;padding-bottom: 2px;}
+.wedding .content .content_top .one_goods .treasure .time span{float: left;margin-top: 9px;}
+.wedding .content .content_top .one_goods .treasure .time p{display: inline-block;float: left;}
+.wedding .content .content_top .one_goods .treasure .time .timebg{background: url(../images/time_bg.png) no-repeat;width: 23px;height: 20px;line-height: 20px;text-align: center;color: #ffffff;}
+.wedding .content .content_top .one_goods .treasure .treasure_pic{float: left;margin-top: 17px;margin-left: 12px;margin-right: 10px;}
+.wedding .content .content_top .one_goods .treasure .introduction{width: 84px;float: left;margin-top: 13px;color: #404040;line-height: 19px;}
+.wedding .content .content_top .one_goods .treasure .raw_price{float: left;color: #808080;text-decoration:line-through; margin-top: 3px;}
+.wedding .content .content_top .one_goods .treasure .price{float: left;color: #404040;margin-top: 15px;margin-left: 3px;}
+.wedding .content .content_top .one_goods .treasure .price span{font-size: 18px;color: #de4a66;}
+.wedding .content .content_top .one_goods .treasure .sale{margin-top: 10px;}
+
+.wedding .content .content_top .today{width: 791px;margin-left: 10px;margin-top: 15px;float: left;position: relative;}
+.wedding .content .content_top .today .select{font-size: 20px;color: #282828;}
+.wedding .content .content_top .today .date{color: #e44a66;font-size: 13px;}
+.wedding .content .content_top .today .num{float: right;margin-top: 10px}
+.wedding .content .content_top .today .num span{color: #ce807e;}
+.wedding .content .content_top .today ul{background: url(../images/today_bg.png) no-repeat;width: 791px;margin-top: 2px;padding-left: 2px;}
+.wedding .content .content_top .today ul li{width: 195px;margin-top: 15px;padding-left: 1px;float: left;position: relative;}
+.wedding .content .content_top .today ul li .shelter{position: absolute;top:0;left: 0;height: 306px;width: 100%;opacity: 0.5;background: #000000;display: none;}
+.wedding .content .content_top .today ul li img{float: left;}
+.wedding .content .content_top .today ul li .goods_name{line-height: 42px;}
+.wedding .content .content_top .today ul li a{float: left;display:block;width: 31px;height: 33px;background: url(../images/enter.png) no-repeat;border: none;margin-right: 8px;}
+.wedding .content .content_top .today ul li span{float: left;display:inline-block;height: 33px;line-height: 33px;}
+.wedding .content .content_top .today ul li span span{color: #404040;float:none;}
+
+.wedding .content .dress{margin-top: 11px;float: left;position: relative;width: 998px;}
+.wedding .content .dress .dress_goods{margin-top: 11px;}
+.wedding .content .dress .dress_goods li{padding-right: 2px;float: left;position: relative;text-align: center;}
+.wedding .content .dress .dress_goods li .goods{position: relative}
+.wedding .content .dress .dress_goods li a .shelter{position: absolute;top:0;left: 0;height: 100%;width: 100%;opacity: 0.5;background: #000000;display: none;}
+.wedding .content .dress .dress_goods li .dress_name{width: 84px;height: 22px;background: #fffffd;color: #000000;bottom: 29px;right: 0;line-height: 22px;position: absolute;}
+.wedding .content .dress .dress_goods li .dress_price{font-size:9px;width: 84px;height: 25px;background: #da546d;color: #ffffff;bottom: 4px;right: 0;line-height: 25px;position: absolute;}
+.wedding .content .dress .dress_goods li .dress_price span{font-size: 13px;color: #ffffff;}
+.wedding .content .dress .dress_menu{position: absolute;top:9px;right: 64px;}
+.wedding .content .dress .dress_menu li{float: left;height: 12px;line-height: 12px;}
+.wedding .content .dress .dress_menu li a{padding-left: 10px;padding-right: 10px;border-right: 1px solid #808080;}
+.wedding .content .dress .dress_menu li .last{border: none;}
+.wedding .content .dress .more1{position: absolute;top:6px;right: 8px;color: #ffffff;background-position: 0 -26px;width: 45px;height: 19px;line-height: 19px;text-align: center;}
+.wedding .content .dress .more2{position: absolute;top:9px;right: 8px;color: #ffffff;background-position: -45px -26px;width: 45px;height: 20px;line-height: 19px;text-align: center;}
+.wedding .content .dress .more3{position: absolute;top:10px;right: 7px;color: #ffffff;background-position: 0 -26px;width: 45px;height: 19px;line-height: 19px;text-align: center;}
+.wedding .content .dress a:hover{color: red;}
+
+.wedding .content .dress .brandstorage{text-align: center;background: #f5f5f5;width: 991px;height: 113px;float:left ;border-right: 1px solid #e5e5e5;margin-top: 13px;}
+.wedding .content .dress .brandstorage span{display: block;width: 25px;height: 95px;font-size: 17px;color: #ffffff;float: left;background: #cccccc;padding-top: 18px;}
+.wedding .content .dress .brandstorage ul{float: left;margin-top: 11px;margin-left: 15px;}
+.wedding .content .dress .brandstorage ul li{margin-right: 25px;float: left}
+.wedding .content .dress .brandstorage ul li a:hover p{color: red;}
+.wedding .content .dress .brandstorage ul .last{margin-right: 0;}
+
+.wedding .content .dress .dress_goods li .goods1{margin-right: 2px;position: relative;text-align: center;margin-bottom: 2px;}
+.wedding .content .dress .dress_goods li .goods2{margin-right: 2px;position: relative;text-align: center;margin-bottom: 2px;}
+.wedding .content .dress .dress_goods li .goods1 .dress_name{bottom: 25px;}
+.wedding .content .dress .dress_goods li .goods1 .dress_price{bottom:0;}
+.wedding .content .dress .dress_goods li .goods2 .dress_name{bottom: 25px;}
+.wedding .content .dress .dress_goods li .goods2 .dress_price{bottom:0;}
+.wedding .content .dress .dress_goods li .goods4 .dress_name{bottom: 25px;}
+.wedding .content .dress .dress_goods li .goods4 .dress_price{bottom:0;}
+.wedding .content .dress .dress_goods li .goods5 .dress_name{bottom: 25px;}
+.wedding .content .dress .dress_goods li .goods5 .dress_price{bottom:0;}
+.wedding .content .dress .dress_goods li .goods6 .dress_name{bottom: 25px;}
+.wedding .content .dress .dress_goods li .goods6 .dress_price{bottom:0;}
+
+.wedding .channel_entery{width: 997px;margin-top: 16px;overflow: hidden;}
+.wedding .channel_entery ul{width: 1050px;}
+.wedding .channel_entery ul li{float: left;width: 247px;height: 130px;border: 1px solid #e8e8e8;border-right: none;}
+.wedding .channel_entery ul .last{border-right:1px solid #e8e8e8; }
+.wedding .channel_entery ul li img{float: right}
+.wedding .channel_entery ul li p{float: right;font-size: 17px;color: #000000;margin-top: 48px;}
+.wedding .channel_entery ul li span{float: right;color: #818181;line-height: 27px;}
+
+.wedding .comprehensive{height:323px;width: 966px;background: #e5e5e5;margin-top: 15px;padding-top: 28px;padding-left: 29px;}
+.wedding .comprehensive .a1{width: 290px;text-align: center;display: block;float: left;margin-right: 27px;}
+.wedding .comprehensive .a1 p{background: #989898;line-height: 24px;color: #ffffff;font-weight: bold;}
+.wedding .comprehensive ul{float: left;margin-top: 26px;}
+.wedding .comprehensive ul li{width: 237px;float: left;}
+.wedding .comprehensive ul li p{margin-bottom:18px;font-size: 13px;font-weight: bold;padding-bottom: 6px;width: 190px;border-bottom: 1px solid #c9c9c9;}
+.wedding .comprehensive ul li a{display: block;height: 24px;}
+
+.wedding .bottom{margin-top: 16px;width: 984px;border-top: 1px solid #d1d7dc;}
+.wedding .bottom .p1{margin-left: 14px;margin-top: 13px;overflow: hidden;}
+.wedding .bottom .p1 a{color: #3366cc;margin-right: 21px;float: left;}
+.wedding .bottom .p2{margin-left: 51px;margin-top: 14px;}
+.wedding .bottom .p2 a{color: #3366cc;}
+.wedding .bottom .p2 span{color: #404040;}
+.wedding .bottom .p2 .station{padding-left: 3px;padding-right: 3px;}
+.wedding .bottom .p2 .border-left{border-left: 1px solid #864186;padding-left: 6px;padding-right: 8px;}
+.wedding .bottom .p3{text-align: center;margin-top: 12px;color: #404040;}
+
+.wedding .movable_menu{position: fixed ;top:240px;left: 50%;margin-left:505px;background: url(../images/movable_menu.png) no-repeat;width: 49px;height: 116px; }
+.wedding .movable_menu a{display: block;padding-left: 13px;width: 36px;font-weight: bold;}
+.wedding .movable_menu .collect{height: 35px;margin-top: 35px;padding-top: 5px;}
+.wedding .movable_menu .reflect{height: 34px;margin-top: 2px;padding-top: 5px;}
+
